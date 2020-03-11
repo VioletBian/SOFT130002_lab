@@ -1,0 +1,92 @@
+img {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 52px;
+    position: relative;
+    padding: 0 16px;
+    margin: 0 0 0;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+nav {
+    /* 设置宽度高度*/
+    height: 50px;
+    width: 600px;
+    position: fixed;
+    /*固定在顶部*/
+    top: 0;
+    padding: 0 0 0 0;
+    border: 0 0 0 0;
+    float: left;
+    background-color: rgb(211, 168, 168);
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul {
+    width: 600px;
+    /*宽度也改为自动*/
+    height: 43px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+    position: fixed;
+}
+
+nav li {
+    float: left;
+    margin-right: 2%;
+    /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+}
+
+nav a {
+    /* 设置链接内容显示的格式*/
+    display: block;
+    /* 把链接显示为块元素可使整个链接区域可点击 */
+    color: rgb(41, 77, 175);
+    text-align: center;
+    padding: 5px;
+    overflow: scroll;
+    text-decoration: none;
+    /* 去除下划线 */
+}
+
+.left_nav {
+    text-align: left;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.right_nav {
+    float: right;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    float: right;
+    background-color: rgb(94, 92, 223);
+    width: 25%;
+}
+
+section {
+    float: left;
+    /* background-color: rgb(168, 33, 33); */
+    width: 75%;
+}
