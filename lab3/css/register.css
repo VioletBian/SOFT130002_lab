@@ -1,0 +1,155 @@
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+ul::after{
+    clear: both;
+    content: "";
+    display: block;
+
+}
+li {
+    float: left;
+    margin-right: 2%;
+}
+li input  {
+    margin-right: 5px;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+nav {
+    /* 设置宽度高度背景颜色 */
+    height: 50px;
+    /*高度改为自动高度*/
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    /*固定在顶部*/
+    top: 0;
+    left: 0;
+    margin-bottom: 5px;
+    z-index: 20; 
+}
+
+nav a {
+    /* 设置链接内容显示的格式*/
+    display: block;
+    /* 把链接显示为块元素可使整个链接区域可点击 */    
+    text-align: center;
+    font-size: 17px;
+  
+    color: #636977;
+    float: right;
+    margin-right: 2%;
+    padding-top: 1%;
+    background-color: none;
+    transition-property: all;
+    transition-duration: 500ms; }
+}
+nav a:hover{
+    color: #679ed1;
+    cursor: pointer;
+    border-bottom: 2px solid #0a88d3;
+}
+main {
+    margin: 6% 20% 0 20%;
+    background-color: #fff;
+    width: 60%;
+    padding-top: 1%;
+}
+main > * {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+
+}
+main h1 {
+    border-bottom: 2px solid #f6f6f6;
+    color: #0084ff;
+}
+input[type='text'], input[type='password'],input[type='tel']{
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    margin: 0em;
+    font: 400 11px;
+    padding: 1px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: #f6f6f6;
+    border-image: initial;
+    font: inherit;
+    border-radius: 7px;
+    padding: 12px 10px 11px !important;
+    width: 65%;
+    max-width: none !important;
+}
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    line-height: 1.4;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #3585f7;
+    width: 65px;
+    height: 40px;
+}
+p {
+    margin-top: 20px;
+}
+select {
+    width: 30%;
+    height: 30px;
+}
+.register-terms{
+    border-top: 2px solid #f6f6f6;
+    padding-top: 20px;
+}
+textarea {
+    width: 90%;
+    margin-left: 5%;
+    resize: none;
+    border:1px dashed rgb(168, 165, 165);
+    border-radius: 6px;
+}
+input[type='radio'] {
+    margin-right: 5px;
+}
+.captcha-tip {
+    color: #3585f7;
+    border-top: 2px solid #f6f6f6;
+    border-top: 2px solid #f6f6f6;
+    padding-top: 20px;
+}
