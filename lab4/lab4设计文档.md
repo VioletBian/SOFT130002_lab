@@ -11,11 +11,11 @@
 
 ## 网页截图
 
-<img src="/Users/fortunebian/Downloads/Web应用基础/SOFT130002_lab/lab4/images/web_clips/lg.png" style="zoom: 33%;" />
+<img src="images/web_clips/lg.png" style="zoom: 33%;" />
 
-<img src="/Users/fortunebian/Downloads/Web应用基础/SOFT130002_lab/lab4/images/web_clips/md.png" style="zoom: 33%;" />
+<img src="images/web_clips/md.png" style="zoom: 33%;" />
 
-<img src="/Users/fortunebian/Downloads/Web应用基础/SOFT130002_lab/lab4/images/web_clips/sm.png" style="zoom: 33%;" />
+<img src="images/web_clips/sm.png" style="zoom: 33%;" />
 
 
 
