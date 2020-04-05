@@ -1,0 +1,48 @@
+.navbar-brand{
+    padding: 6px 6px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    /*固定在顶部*/
+    top: 0;
+    z-index: 20;
+}
+
+.hot-photos{
+    width: 100%;
+}
+  
+footer{
+    background-color: #333333;
+}
+.row{
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: rgb(171, 171, 177);  
+}
+footer a:hover {
+    cursor: pointer;
+}
+footer {
+    /* background-color: rgb(61, 57, 57); */
+    background-color: rgb(245, 245, 247);
+    color: rgb(183, 183, 187);
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+.copyright {
+    color: rgb(183, 183, 187);
+}
