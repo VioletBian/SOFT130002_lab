@@ -4,7 +4,7 @@
 
 ## 完成Lab7时的困难与解决方式：
 
-1. 在<h3> <h4> 等元素内部频繁使用`document.createTextNode()`的字面量表达式，使代码十分繁琐。
+1. 在`<h3> <h4>` 等元素内部频繁使用`document.createTextNode()`的字面量表达式，使代码十分繁琐。
    * 改用`element.innerText`,使代码简洁化。
 2. Genre和LifeTime / < img>们不在同一行
    * 使用`element.style.display = "inline"`或 `element.style.display = "inlnebox"`
