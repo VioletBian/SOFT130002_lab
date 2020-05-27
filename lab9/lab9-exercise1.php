@@ -10,7 +10,8 @@
 <?php
 //this is a php comment IN tags (will not appear)
 date_default_timezone_set('PRC');
-$remaining = 365 - date("z") + 1;
+// 是闰年就+1，不是就365
+$remaining = (date("L"))? 365 - date("z") + 1 : 365 - date("z");
 echo "There are ". $remaining . " days left in the year";
 //notice we must echo tags in php.
 
